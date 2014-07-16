@@ -38,13 +38,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  10 .debug_line   0000439c  00000000  00000000  000212cc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00002526  00000000  00000000  00025668  2**0
+ 11 .debug_str    00002520  00000000  00000000  00025668  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .comment      00000070  00000000  00000000  00027b8e  2**0
+ 12 .comment      00000070  00000000  00000000  00027b88  2**0
                   CONTENTS, READONLY
- 13 .ARM.attributes 00000033  00000000  00000000  00027bfe  2**0
+ 13 .ARM.attributes 00000031  00000000  00000000  00027bf8  2**0
                   CONTENTS, READONLY
- 14 .debug_frame  000015c8  00000000  00000000  00027c34  2**2
+ 14 .debug_frame  000015c8  00000000  00000000  00027c2c  2**2
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup
@@ -111,14 +111,19 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 board.c
 00000000 l    df *ABS*	00000000 chregistry.c
 00000000 l    df *ABS*	00000000 
+00000000 l       *UND*	00000000 gdisp_lld_write_pos
 08001bb0 l       .stacks	00000000 _etext
 00000000 l       *UND*	00000000 msObjectInit
+00000000 l       *UND*	00000000 gdisp_lld_write_color
+00000000 l       *UND*	00000000 gdisp_lld_write_stop
 0001c000 l       *ABS*	00000000 __ram_size__
 00000000 l       startup	00000000 _text
 20000000 l       startup	00000000 __ram_start__
+00000000 l       *UND*	00000000 gdisp_lld_init
 2001c000 l       *ABS*	00000000 __ram_end__
 20000af8 l       .bss	00000000 _end
 00000400 l       *ABS*	00000000 __main_stack_size__
+00000000 l       *UND*	00000000 gdisp_lld_write_start
 00000400 l       *ABS*	00000000 __process_stack_size__
 08001ab0 g     O .text	000000fc pal_default_config
 08000310  w    F .text	00000002 Vector58

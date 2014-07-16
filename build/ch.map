@@ -20,7 +20,7 @@ Discarded input sections
                 0x00000000       0x20 build/obj/chcore.o
  .debug_ranges  0x00000000       0x10 build/obj/chcore.o
  .debug_line    0x00000000       0x53 build/obj/chcore.o
- .debug_str     0x00000000      0x1e8 build/obj/chcore.o
+ .debug_str     0x00000000      0x1dd build/obj/chcore.o
  .comment       0x00000000       0x71 build/obj/chcore.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chcore.o
@@ -44,7 +44,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/chdebug.o
  .debug_line    0x00000000       0x1d build/obj/chdebug.o
- .debug_str     0x00000000      0x1d9 build/obj/chdebug.o
+ .debug_str     0x00000000      0x1ce build/obj/chdebug.o
  .comment       0x00000000       0x71 build/obj/chdebug.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chdebug.o
@@ -56,7 +56,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/chlists.o
  .debug_line    0x00000000       0x1d build/obj/chlists.o
- .debug_str     0x00000000      0x1d9 build/obj/chlists.o
+ .debug_str     0x00000000      0x1ce build/obj/chlists.o
  .comment       0x00000000       0x71 build/obj/chlists.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chlists.o
@@ -103,7 +103,7 @@ Discarded input sections
                 0x00000000       0x38 build/obj/chdynamic.o
  .debug_ranges  0x00000000       0x28 build/obj/chdynamic.o
  .debug_line    0x00000000      0x1ff build/obj/chdynamic.o
- .debug_str     0x00000000      0x4d6 build/obj/chdynamic.o
+ .debug_str     0x00000000      0x4cb build/obj/chdynamic.o
  .comment       0x00000000       0x71 build/obj/chdynamic.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chdynamic.o
@@ -147,7 +147,7 @@ Discarded input sections
                 0x00000000       0x70 build/obj/chsem.o
  .debug_ranges  0x00000000      0x108 build/obj/chsem.o
  .debug_line    0x00000000      0x2fa build/obj/chsem.o
- .debug_str     0x00000000      0x4cd build/obj/chsem.o
+ .debug_str     0x00000000      0x4c2 build/obj/chsem.o
  .comment       0x00000000       0x71 build/obj/chsem.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chsem.o
@@ -197,7 +197,7 @@ Discarded input sections
                 0x00000000       0x60 build/obj/chcond.o
  .debug_ranges  0x00000000       0xa8 build/obj/chcond.o
  .debug_line    0x00000000      0x277 build/obj/chcond.o
- .debug_str     0x00000000      0x4bb build/obj/chcond.o
+ .debug_str     0x00000000      0x4b0 build/obj/chcond.o
  .comment       0x00000000       0x71 build/obj/chcond.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chcond.o
@@ -251,7 +251,7 @@ Discarded input sections
                 0x00000000       0x30 build/obj/chmsg.o
  .debug_ranges  0x00000000       0x68 build/obj/chmsg.o
  .debug_line    0x00000000      0x1a1 build/obj/chmsg.o
- .debug_str     0x00000000      0x406 build/obj/chmsg.o
+ .debug_str     0x00000000      0x3fb build/obj/chmsg.o
  .comment       0x00000000       0x71 build/obj/chmsg.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chmsg.o
@@ -288,7 +288,7 @@ Discarded input sections
                 0x00000000       0x70 build/obj/chmboxes.o
  .debug_ranges  0x00000000       0x78 build/obj/chmboxes.o
  .debug_line    0x00000000      0x26e build/obj/chmboxes.o
- .debug_str     0x00000000      0x495 build/obj/chmboxes.o
+ .debug_str     0x00000000      0x48a build/obj/chmboxes.o
  .comment       0x00000000       0x71 build/obj/chmboxes.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chmboxes.o
@@ -340,7 +340,7 @@ Discarded input sections
                 0x00000000       0x48 build/obj/chmempools.o
  .debug_ranges  0x00000000       0xc8 build/obj/chmempools.o
  .debug_line    0x00000000      0x1b9 build/obj/chmempools.o
- .debug_str     0x00000000      0x2b6 build/obj/chmempools.o
+ .debug_str     0x00000000      0x2ab build/obj/chmempools.o
  .comment       0x00000000       0x71 build/obj/chmempools.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chmempools.o
@@ -406,7 +406,7 @@ Discarded input sections
                 0x00000000       0x98 build/obj/test.o
  .debug_ranges  0x00000000      0x128 build/obj/test.o
  .debug_line    0x00000000      0x4eb build/obj/test.o
- .debug_str     0x00000000      0x6e6 build/obj/test.o
+ .debug_str     0x00000000      0x6db build/obj/test.o
  .comment       0x00000000       0x71 build/obj/test.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/test.o
@@ -442,7 +442,7 @@ Discarded input sections
                 0x00000000       0x40 build/obj/testthd.o
  .debug_ranges  0x00000000       0x90 build/obj/testthd.o
  .debug_line    0x00000000      0x211 build/obj/testthd.o
- .debug_str     0x00000000      0x56f build/obj/testthd.o
+ .debug_str     0x00000000      0x564 build/obj/testthd.o
  .comment       0x00000000       0x71 build/obj/testthd.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testthd.o
@@ -488,7 +488,7 @@ Discarded input sections
                 0x00000000       0x70 build/obj/testsem.o
  .debug_ranges  0x00000000       0x90 build/obj/testsem.o
  .debug_line    0x00000000      0x2e1 build/obj/testsem.o
- .debug_str     0x00000000      0x62b build/obj/testsem.o
+ .debug_str     0x00000000      0x620 build/obj/testsem.o
  .comment       0x00000000       0x71 build/obj/testsem.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testsem.o
@@ -585,7 +585,7 @@ Discarded input sections
                 0x00000000      0x108 build/obj/testmtx.o
  .debug_ranges  0x00000000      0x110 build/obj/testmtx.o
  .debug_line    0x00000000      0x4a8 build/obj/testmtx.o
- .debug_str     0x00000000      0x729 build/obj/testmtx.o
+ .debug_str     0x00000000      0x71e build/obj/testmtx.o
  .comment       0x00000000       0x71 build/obj/testmtx.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testmtx.o
@@ -609,7 +609,7 @@ Discarded input sections
                 0x00000000       0x28 build/obj/testmsg.o
  .debug_ranges  0x00000000       0x18 build/obj/testmsg.o
  .debug_line    0x00000000      0x1a4 build/obj/testmsg.o
- .debug_str     0x00000000      0x462 build/obj/testmsg.o
+ .debug_str     0x00000000      0x457 build/obj/testmsg.o
  .comment       0x00000000       0x71 build/obj/testmsg.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testmsg.o
@@ -635,7 +635,7 @@ Discarded input sections
                 0x00000000       0x28 build/obj/testmbox.o
  .debug_ranges  0x00000000       0xc0 build/obj/testmbox.o
  .debug_line    0x00000000      0x25a build/obj/testmbox.o
- .debug_str     0x00000000      0x4e9 build/obj/testmbox.o
+ .debug_str     0x00000000      0x4de build/obj/testmbox.o
  .comment       0x00000000       0x71 build/obj/testmbox.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testmbox.o
@@ -681,7 +681,7 @@ Discarded input sections
                 0x00000000       0x70 build/obj/testevt.o
  .debug_ranges  0x00000000       0x78 build/obj/testevt.o
  .debug_line    0x00000000      0x29e build/obj/testevt.o
- .debug_str     0x00000000      0x694 build/obj/testevt.o
+ .debug_str     0x00000000      0x689 build/obj/testevt.o
  .comment       0x00000000       0x71 build/obj/testevt.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testevt.o
@@ -708,7 +708,7 @@ Discarded input sections
                 0x00000000       0x28 build/obj/testheap.o
  .debug_ranges  0x00000000       0x18 build/obj/testheap.o
  .debug_line    0x00000000      0x1de build/obj/testheap.o
- .debug_str     0x00000000      0x4ab build/obj/testheap.o
+ .debug_str     0x00000000      0x4a0 build/obj/testheap.o
  .comment       0x00000000       0x71 build/obj/testheap.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testheap.o
@@ -736,7 +736,7 @@ Discarded input sections
                 0x00000000       0x30 build/obj/testpools.o
  .debug_ranges  0x00000000       0x40 build/obj/testpools.o
  .debug_line    0x00000000      0x11a build/obj/testpools.o
- .debug_str     0x00000000      0x2da build/obj/testpools.o
+ .debug_str     0x00000000      0x2cf build/obj/testpools.o
  .comment       0x00000000       0x71 build/obj/testpools.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testpools.o
@@ -777,7 +777,7 @@ Discarded input sections
                 0x00000000       0x58 build/obj/testdyn.o
  .debug_ranges  0x00000000       0x48 build/obj/testdyn.o
  .debug_line    0x00000000      0x2c5 build/obj/testdyn.o
- .debug_str     0x00000000      0x64f build/obj/testdyn.o
+ .debug_str     0x00000000      0x644 build/obj/testdyn.o
  .comment       0x00000000       0x71 build/obj/testdyn.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testdyn.o
@@ -813,7 +813,7 @@ Discarded input sections
                 0x00000000       0x50 build/obj/testqueues.o
  .debug_ranges  0x00000000      0x120 build/obj/testqueues.o
  .debug_line    0x00000000      0x274 build/obj/testqueues.o
- .debug_str     0x00000000      0x5d6 build/obj/testqueues.o
+ .debug_str     0x00000000      0x5cb build/obj/testqueues.o
  .comment       0x00000000       0x71 build/obj/testqueues.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testqueues.o
@@ -904,7 +904,7 @@ Discarded input sections
                 0x00000000       0xd0 build/obj/testbmk.o
  .debug_ranges  0x00000000       0xd8 build/obj/testbmk.o
  .debug_line    0x00000000      0x58f build/obj/testbmk.o
- .debug_str     0x00000000      0x7b0 build/obj/testbmk.o
+ .debug_str     0x00000000      0x7a5 build/obj/testbmk.o
  .comment       0x00000000       0x71 build/obj/testbmk.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/testbmk.o
@@ -944,7 +944,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/can.o
  .debug_line    0x00000000       0xbc build/obj/can.o
- .debug_str     0x00000000      0x1f1 build/obj/can.o
+ .debug_str     0x00000000      0x1e6 build/obj/can.o
  .comment       0x00000000       0x71 build/obj/can.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/can.o
@@ -956,7 +956,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/ext.o
  .debug_line    0x00000000       0xbc build/obj/ext.o
- .debug_str     0x00000000      0x1f1 build/obj/ext.o
+ .debug_str     0x00000000      0x1e6 build/obj/ext.o
  .comment       0x00000000       0x71 build/obj/ext.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/ext.o
@@ -968,7 +968,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/gpt.o
  .debug_line    0x00000000       0xbc build/obj/gpt.o
- .debug_str     0x00000000      0x1f1 build/obj/gpt.o
+ .debug_str     0x00000000      0x1e6 build/obj/gpt.o
  .comment       0x00000000       0x71 build/obj/gpt.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/gpt.o
@@ -980,7 +980,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/i2c.o
  .debug_line    0x00000000       0xbc build/obj/i2c.o
- .debug_str     0x00000000      0x1f1 build/obj/i2c.o
+ .debug_str     0x00000000      0x1e6 build/obj/i2c.o
  .comment       0x00000000       0x71 build/obj/i2c.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/i2c.o
@@ -992,7 +992,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/icu.o
  .debug_line    0x00000000       0xbc build/obj/icu.o
- .debug_str     0x00000000      0x1f1 build/obj/icu.o
+ .debug_str     0x00000000      0x1e6 build/obj/icu.o
  .comment       0x00000000       0x71 build/obj/icu.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/icu.o
@@ -1004,7 +1004,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/mac.o
  .debug_line    0x00000000       0xbc build/obj/mac.o
- .debug_str     0x00000000      0x1f1 build/obj/mac.o
+ .debug_str     0x00000000      0x1e6 build/obj/mac.o
  .comment       0x00000000       0x71 build/obj/mac.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/mac.o
@@ -1016,7 +1016,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/mmc_spi.o
  .debug_line    0x00000000       0xbc build/obj/mmc_spi.o
- .debug_str     0x00000000      0x1f5 build/obj/mmc_spi.o
+ .debug_str     0x00000000      0x1ea build/obj/mmc_spi.o
  .comment       0x00000000       0x71 build/obj/mmc_spi.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/mmc_spi.o
@@ -1028,7 +1028,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/mmcsd.o
  .debug_line    0x00000000       0xbc build/obj/mmcsd.o
- .debug_str     0x00000000      0x1f3 build/obj/mmcsd.o
+ .debug_str     0x00000000      0x1e8 build/obj/mmcsd.o
  .comment       0x00000000       0x71 build/obj/mmcsd.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/mmcsd.o
@@ -1048,7 +1048,7 @@ Discarded input sections
                 0x00000000       0x30 build/obj/pal.o
  .debug_ranges  0x00000000       0x20 build/obj/pal.o
  .debug_line    0x00000000      0x15f build/obj/pal.o
- .debug_str     0x00000000      0x2e7 build/obj/pal.o
+ .debug_str     0x00000000      0x2dc build/obj/pal.o
  .comment       0x00000000       0x71 build/obj/pal.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/pal.o
@@ -1073,7 +1073,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/rtc.o
  .debug_line    0x00000000       0xbc build/obj/rtc.o
- .debug_str     0x00000000      0x1f1 build/obj/rtc.o
+ .debug_str     0x00000000      0x1e6 build/obj/rtc.o
  .comment       0x00000000       0x71 build/obj/rtc.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/rtc.o
@@ -1085,7 +1085,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/sdc.o
  .debug_line    0x00000000       0xbc build/obj/sdc.o
- .debug_str     0x00000000      0x1f1 build/obj/sdc.o
+ .debug_str     0x00000000      0x1e6 build/obj/sdc.o
  .comment       0x00000000       0x71 build/obj/sdc.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/sdc.o
@@ -1104,7 +1104,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/serial_usb.o
  .debug_line    0x00000000       0xbc build/obj/serial_usb.o
- .debug_str     0x00000000      0x1f8 build/obj/serial_usb.o
+ .debug_str     0x00000000      0x1ed build/obj/serial_usb.o
  .comment       0x00000000       0x71 build/obj/serial_usb.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/serial_usb.o
@@ -1145,7 +1145,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/tm.o
  .debug_line    0x00000000       0xbc build/obj/tm.o
- .debug_str     0x00000000      0x1f0 build/obj/tm.o
+ .debug_str     0x00000000      0x1e5 build/obj/tm.o
  .comment       0x00000000       0x71 build/obj/tm.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/tm.o
@@ -1157,7 +1157,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/uart.o
  .debug_line    0x00000000       0xbc build/obj/uart.o
- .debug_str     0x00000000      0x1f2 build/obj/uart.o
+ .debug_str     0x00000000      0x1e7 build/obj/uart.o
  .comment       0x00000000       0x71 build/obj/uart.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/uart.o
@@ -1169,7 +1169,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/usb.o
  .debug_line    0x00000000       0xbc build/obj/usb.o
- .debug_str     0x00000000      0x1f1 build/obj/usb.o
+ .debug_str     0x00000000      0x1e6 build/obj/usb.o
  .comment       0x00000000       0x71 build/obj/usb.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/usb.o
@@ -1210,7 +1210,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/ext_lld_isr.o
  .debug_line    0x00000000       0xbc build/obj/ext_lld_isr.o
- .debug_str     0x00000000      0x209 build/obj/ext_lld_isr.o
+ .debug_str     0x00000000      0x1fe build/obj/ext_lld_isr.o
  .comment       0x00000000       0x71 build/obj/ext_lld_isr.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/ext_lld_isr.o
@@ -1222,7 +1222,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/can_lld.o
  .debug_line    0x00000000       0xbc build/obj/can_lld.o
- .debug_str     0x00000000      0x201 build/obj/can_lld.o
+ .debug_str     0x00000000      0x1f6 build/obj/can_lld.o
  .comment       0x00000000       0x71 build/obj/can_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/can_lld.o
@@ -1234,7 +1234,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/ext_lld.o
  .debug_line    0x00000000       0xbc build/obj/ext_lld.o
- .debug_str     0x00000000      0x201 build/obj/ext_lld.o
+ .debug_str     0x00000000      0x1f6 build/obj/ext_lld.o
  .comment       0x00000000       0x71 build/obj/ext_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/ext_lld.o
@@ -1246,7 +1246,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/mac_lld.o
  .debug_line    0x00000000       0xbc build/obj/mac_lld.o
- .debug_str     0x00000000      0x201 build/obj/mac_lld.o
+ .debug_str     0x00000000      0x1f6 build/obj/mac_lld.o
  .comment       0x00000000       0x71 build/obj/mac_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/mac_lld.o
@@ -1258,7 +1258,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/sdc_lld.o
  .debug_line    0x00000000       0xbc build/obj/sdc_lld.o
- .debug_str     0x00000000      0x201 build/obj/sdc_lld.o
+ .debug_str     0x00000000      0x1f6 build/obj/sdc_lld.o
  .comment       0x00000000       0x71 build/obj/sdc_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/sdc_lld.o
@@ -1273,7 +1273,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/i2c_lld.o
  .debug_line    0x00000000       0xbc build/obj/i2c_lld.o
- .debug_str     0x00000000      0x207 build/obj/i2c_lld.o
+ .debug_str     0x00000000      0x1fc build/obj/i2c_lld.o
  .comment       0x00000000       0x71 build/obj/i2c_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/i2c_lld.o
@@ -1285,7 +1285,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/usb_lld.o
  .debug_line    0x00000000       0xbc build/obj/usb_lld.o
- .debug_str     0x00000000      0x207 build/obj/usb_lld.o
+ .debug_str     0x00000000      0x1fc build/obj/usb_lld.o
  .comment       0x00000000       0x71 build/obj/usb_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/usb_lld.o
@@ -1297,7 +1297,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/rtc_lld.o
  .debug_line    0x00000000       0xbc build/obj/rtc_lld.o
- .debug_str     0x00000000      0x207 build/obj/rtc_lld.o
+ .debug_str     0x00000000      0x1fc build/obj/rtc_lld.o
  .comment       0x00000000       0x71 build/obj/rtc_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/rtc_lld.o
@@ -1335,7 +1335,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/gpt_lld.o
  .debug_line    0x00000000       0xbc build/obj/gpt_lld.o
- .debug_str     0x00000000      0x207 build/obj/gpt_lld.o
+ .debug_str     0x00000000      0x1fc build/obj/gpt_lld.o
  .comment       0x00000000       0x71 build/obj/gpt_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/gpt_lld.o
@@ -1347,7 +1347,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/icu_lld.o
  .debug_line    0x00000000       0xbc build/obj/icu_lld.o
- .debug_str     0x00000000      0x207 build/obj/icu_lld.o
+ .debug_str     0x00000000      0x1fc build/obj/icu_lld.o
  .comment       0x00000000       0x71 build/obj/icu_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/icu_lld.o
@@ -1379,7 +1379,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build/obj/uart_lld.o
  .debug_line    0x00000000       0xbc build/obj/uart_lld.o
- .debug_str     0x00000000      0x20a build/obj/uart_lld.o
+ .debug_str     0x00000000      0x1ff build/obj/uart_lld.o
  .comment       0x00000000       0x71 build/obj/uart_lld.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/uart_lld.o
@@ -1402,7 +1402,7 @@ Discarded input sections
                 0x00000000       0x28 build/obj/lis302dl.o
  .debug_ranges  0x00000000       0x18 build/obj/lis302dl.o
  .debug_line    0x00000000      0x291 build/obj/lis302dl.o
- .debug_str     0x00000000      0x5eb build/obj/lis302dl.o
+ .debug_str     0x00000000      0x5e0 build/obj/lis302dl.o
  .comment       0x00000000       0x71 build/obj/lis302dl.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/lis302dl.o
@@ -1425,7 +1425,7 @@ Discarded input sections
                 0x00000000       0x30 build/obj/chprintf.o
  .debug_ranges  0x00000000       0x38 build/obj/chprintf.o
  .debug_line    0x00000000      0x262 build/obj/chprintf.o
- .debug_str     0x00000000      0x32c build/obj/chprintf.o
+ .debug_str     0x00000000      0x321 build/obj/chprintf.o
  .comment       0x00000000       0x71 build/obj/chprintf.o
  .ARM.attributes
                 0x00000000       0x33 build/obj/chprintf.o
@@ -2241,63 +2241,63 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x0000409d      0x168 build/obj/board.o
  .debug_line    0x00004205      0x197 build/obj/main.o
 
-.debug_str      0x00000000     0x2526
- .debug_str     0x00000000      0x2ba build/obj/crt0.o
-                                0x2ff (size before relaxing)
- .debug_str     0x000002ba      0x145 build/obj/vectors.o
-                                0x320 (size before relaxing)
- .debug_str     0x000003ff      0x2ec build/obj/chcore_v7m.o
-                                0x4dc (size before relaxing)
- .debug_str     0x000006eb       0x9e build/obj/nvic.o
-                                0x2f2 (size before relaxing)
- .debug_str     0x00000789      0x209 build/obj/chsys.o
-                                0x5ca (size before relaxing)
- .debug_str     0x00000992       0x36 build/obj/chvt.o
-                                0x273 (size before relaxing)
- .debug_str     0x000009c8       0xd5 build/obj/chschd.o
-                                0x4e9 (size before relaxing)
- .debug_str     0x00000a9d       0xd3 build/obj/chthreads.o
-                                0x554 (size before relaxing)
- .debug_str     0x00000b70       0x42 build/obj/chregistry.o
-                                0x4e2 (size before relaxing)
- .debug_str     0x00000bb2       0x91 build/obj/chmtx.o
-                                0x46e (size before relaxing)
- .debug_str     0x00000c43      0x1b9 build/obj/chevents.o
-                                0x592 (size before relaxing)
- .debug_str     0x00000dfc      0x126 build/obj/chqueues.o
-                                0x4f9 (size before relaxing)
- .debug_str     0x00000f22       0x70 build/obj/chmemcore.o
+.debug_str      0x00000000     0x251b
+ .debug_str     0x00000000      0x2af build/obj/crt0.o
+                                0x2f4 (size before relaxing)
+ .debug_str     0x000002af      0x145 build/obj/vectors.o
+                                0x315 (size before relaxing)
+ .debug_str     0x000003f4      0x2ec build/obj/chcore_v7m.o
+                                0x4d1 (size before relaxing)
+ .debug_str     0x000006e0       0x9e build/obj/nvic.o
+                                0x2e7 (size before relaxing)
+ .debug_str     0x0000077e      0x209 build/obj/chsys.o
+                                0x5bf (size before relaxing)
+ .debug_str     0x00000987       0x36 build/obj/chvt.o
                                 0x268 (size before relaxing)
- .debug_str     0x00000f92       0xb3 build/obj/chheap.o
-                                0x45d (size before relaxing)
- .debug_str     0x00001045      0x17e build/obj/hal.o
-                                0x374 (size before relaxing)
- .debug_str     0x000011c3      0x2f9 build/obj/adc.o
-                                0x723 (size before relaxing)
- .debug_str     0x000014bc      0x1ad build/obj/pwm.o
-                                0x3ec (size before relaxing)
- .debug_str     0x00001669      0x16f build/obj/serial.o
-                                0x671 (size before relaxing)
- .debug_str     0x000017d8      0x27b build/obj/spi.o
-                                0x72a (size before relaxing)
- .debug_str     0x00001a53      0x740 build/obj/stm32_dma.o
-                                0xa3e (size before relaxing)
- .debug_str     0x00002193       0xbe build/obj/hal_lld.o
-                                0x41c (size before relaxing)
- .debug_str     0x00002251       0xce build/obj/adc_lld.o
-                                0xd59 (size before relaxing)
- .debug_str     0x0000231f       0x77 build/obj/pal_lld.o
-                                0x47a (size before relaxing)
- .debug_str     0x00002396       0xa1 build/obj/spi_lld.o
-                                0x7ca (size before relaxing)
- .debug_str     0x00002437       0x59 build/obj/pwm_lld.o
-                                0x527 (size before relaxing)
- .debug_str     0x00002490       0x65 build/obj/serial_lld.o
-                                0x717 (size before relaxing)
- .debug_str     0x000024f5       0x2a build/obj/board.o
-                                0x2d4 (size before relaxing)
- .debug_str     0x0000251f        0x7 build/obj/main.o
-                                0x2ae (size before relaxing)
+ .debug_str     0x000009bd       0xd5 build/obj/chschd.o
+                                0x4de (size before relaxing)
+ .debug_str     0x00000a92       0xd3 build/obj/chthreads.o
+                                0x549 (size before relaxing)
+ .debug_str     0x00000b65       0x42 build/obj/chregistry.o
+                                0x4d7 (size before relaxing)
+ .debug_str     0x00000ba7       0x91 build/obj/chmtx.o
+                                0x463 (size before relaxing)
+ .debug_str     0x00000c38      0x1b9 build/obj/chevents.o
+                                0x587 (size before relaxing)
+ .debug_str     0x00000df1      0x126 build/obj/chqueues.o
+                                0x4ee (size before relaxing)
+ .debug_str     0x00000f17       0x70 build/obj/chmemcore.o
+                                0x25d (size before relaxing)
+ .debug_str     0x00000f87       0xb3 build/obj/chheap.o
+                                0x452 (size before relaxing)
+ .debug_str     0x0000103a      0x17e build/obj/hal.o
+                                0x369 (size before relaxing)
+ .debug_str     0x000011b8      0x2f9 build/obj/adc.o
+                                0x718 (size before relaxing)
+ .debug_str     0x000014b1      0x1ad build/obj/pwm.o
+                                0x3e1 (size before relaxing)
+ .debug_str     0x0000165e      0x16f build/obj/serial.o
+                                0x666 (size before relaxing)
+ .debug_str     0x000017cd      0x27b build/obj/spi.o
+                                0x71f (size before relaxing)
+ .debug_str     0x00001a48      0x740 build/obj/stm32_dma.o
+                                0xa33 (size before relaxing)
+ .debug_str     0x00002188       0xbe build/obj/hal_lld.o
+                                0x411 (size before relaxing)
+ .debug_str     0x00002246       0xce build/obj/adc_lld.o
+                                0xd4e (size before relaxing)
+ .debug_str     0x00002314       0x77 build/obj/pal_lld.o
+                                0x46f (size before relaxing)
+ .debug_str     0x0000238b       0xa1 build/obj/spi_lld.o
+                                0x7bf (size before relaxing)
+ .debug_str     0x0000242c       0x59 build/obj/pwm_lld.o
+                                0x51c (size before relaxing)
+ .debug_str     0x00002485       0x65 build/obj/serial_lld.o
+                                0x70c (size before relaxing)
+ .debug_str     0x000024ea       0x2a build/obj/board.o
+                                0x2c9 (size before relaxing)
+ .debug_str     0x00002514        0x7 build/obj/main.o
+                                0x2a3 (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 build/obj/crt0.o

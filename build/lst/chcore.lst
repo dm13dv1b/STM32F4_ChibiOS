@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  /tmp/ccPiKD0Y.s 			page 1
+=======
+ARM GAS  /tmp/ccFAEn7c.s 			page 1
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
 
 
    1              		.syntax unified
@@ -54,11 +58,19 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
   49 0006 00000000 		.4byte	.Ldebug_abbrev0
   50 000a 04       		.byte	0x4
   51 000b 01       		.uleb128 0x1
+<<<<<<< HEAD
   52 000c 83000000 		.4byte	.LASF12
   53 0010 01       		.byte	0x1
   54 0011 1B000000 		.4byte	.LASF13
   55 0015 96010000 		.4byte	.LASF14
 ARM GAS  /tmp/ccPiKD0Y.s 			page 2
+=======
+  52 000c C6000000 		.4byte	.LASF12
+  53 0010 01       		.byte	0x1
+  54 0011 5E000000 		.4byte	.LASF13
+  55 0015 1B000000 		.4byte	.LASF14
+ARM GAS  /tmp/ccFAEn7c.s 			page 2
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
 
 
   56 0019 00000000 		.4byte	.Ldebug_ranges0+0
@@ -75,6 +87,7 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
   67 0033 03       		.uleb128 0x3
   68 0034 01       		.byte	0x1
   69 0035 06       		.byte	0x6
+<<<<<<< HEAD
   70 0036 76010000 		.4byte	.LASF1
   71 003a 03       		.uleb128 0x3
   72 003b 01       		.byte	0x1
@@ -96,6 +109,29 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
   88 0057 04       		.byte	0x4
   89 0058 07       		.byte	0x7
   90 0059 3E000000 		.4byte	.LASF6
+=======
+  70 0036 B9010000 		.4byte	.LASF1
+  71 003a 03       		.uleb128 0x3
+  72 003b 01       		.byte	0x1
+  73 003c 08       		.byte	0x8
+  74 003d AA000000 		.4byte	.LASF2
+  75 0041 03       		.uleb128 0x3
+  76 0042 02       		.byte	0x2
+  77 0043 05       		.byte	0x5
+  78 0044 CF010000 		.4byte	.LASF3
+  79 0048 03       		.uleb128 0x3
+  80 0049 02       		.byte	0x2
+  81 004a 07       		.byte	0x7
+  82 004b A6010000 		.4byte	.LASF4
+  83 004f 03       		.uleb128 0x3
+  84 0050 04       		.byte	0x4
+  85 0051 05       		.byte	0x5
+  86 0052 BD000000 		.4byte	.LASF5
+  87 0056 03       		.uleb128 0x3
+  88 0057 04       		.byte	0x4
+  89 0058 07       		.byte	0x7
+  90 0059 81000000 		.4byte	.LASF6
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
   91 005d 03       		.uleb128 0x3
   92 005e 08       		.byte	0x8
   93 005f 05       		.byte	0x5
@@ -103,6 +139,7 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
   95 0064 03       		.uleb128 0x3
   96 0065 08       		.byte	0x8
   97 0066 07       		.byte	0x7
+<<<<<<< HEAD
   98 0067 50000000 		.4byte	.LASF8
   99 006b 03       		.uleb128 0x3
  100 006c 01       		.byte	0x1
@@ -119,6 +156,24 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
  111 0080 04       		.uleb128 0x4
  112 0081 82010000 		.4byte	.LASF15
 ARM GAS  /tmp/ccPiKD0Y.s 			page 3
+=======
+  98 0067 93000000 		.4byte	.LASF8
+  99 006b 03       		.uleb128 0x3
+ 100 006c 01       		.byte	0x1
+ 101 006d 02       		.byte	0x2
+ 102 006e A0010000 		.4byte	.LASF9
+ 103 0072 03       		.uleb128 0x3
+ 104 0073 04       		.byte	0x4
+ 105 0074 07       		.byte	0x7
+ 106 0075 D9010000 		.4byte	.LASF10
+ 107 0079 03       		.uleb128 0x3
+ 108 007a 01       		.byte	0x1
+ 109 007b 08       		.byte	0x8
+ 110 007c B8000000 		.4byte	.LASF11
+ 111 0080 04       		.uleb128 0x4
+ 112 0081 C5010000 		.4byte	.LASF15
+ARM GAS  /tmp/ccFAEn7c.s 			page 3
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
 
 
  113 0085 01       		.byte	0x1
@@ -178,7 +233,11 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
  167 002d 19       		.uleb128 0x19
  168 002e 03       		.uleb128 0x3
  169 002f 0E       		.uleb128 0xe
+<<<<<<< HEAD
 ARM GAS  /tmp/ccPiKD0Y.s 			page 4
+=======
+ARM GAS  /tmp/ccFAEn7c.s 			page 4
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
 
 
  170 0030 3A       		.uleb128 0x3a
@@ -233,6 +292,7 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
  211      676E6564 
  211      20696E74 
  211      00
+<<<<<<< HEAD
  212              	.LASF13:
  213 001b 2E2E2F2E 		.ascii	"../../os/ports/GCC/ARMCMx/chcore.c\000"
  213      2E2F6F73 
@@ -330,12 +390,117 @@ ARM GAS  /tmp/ccPiKD0Y.s 			page 1
  244      00
  245              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br
 ARM GAS  /tmp/ccPiKD0Y.s 			page 7
+=======
+ 212              	.LASF14:
+ 213 001b 2F686F6D 		.ascii	"/home/makkmarci/devel/ChibiOS_2.6.5/projects/STM32F"
+ 213      652F6D61 
+ 213      6B6B6D61 
+ 213      7263692F 
+ARM GAS  /tmp/ccFAEn7c.s 			page 5
+
+
+ 213      64657665 
+ 214 004e 345F4368 		.ascii	"4_ChibiOS_uGFX/\000"
+ 214      6962694F 
+ 214      535F7547 
+ 214      46582F00 
+ 215              	.LASF13:
+ 216 005e 2E2E2F2E 		.ascii	"../../os/ports/GCC/ARMCMx/chcore.c\000"
+ 216      2E2F6F73 
+ 216      2F706F72 
+ 216      74732F47 
+ 216      43432F41 
+ 217              	.LASF6:
+ 218 0081 6C6F6E67 		.ascii	"long unsigned int\000"
+ 218      20756E73 
+ 218      69676E65 
+ 218      6420696E 
+ 218      7400
+ 219              	.LASF8:
+ 220 0093 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 220      206C6F6E 
+ 220      6720756E 
+ 220      7369676E 
+ 220      65642069 
+ 221              	.LASF2:
+ 222 00aa 756E7369 		.ascii	"unsigned char\000"
+ 222      676E6564 
+ 222      20636861 
+ 222      7200
+ 223              	.LASF11:
+ 224 00b8 63686172 		.ascii	"char\000"
+ 224      00
+ 225              	.LASF5:
+ 226 00bd 6C6F6E67 		.ascii	"long int\000"
+ 226      20696E74 
+ 226      00
+ 227              	.LASF12:
+ 228 00c6 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 228      4320342E 
+ 228      382E3420 
+ 228      32303134 
+ 228      30353236 
+ 229 00f9 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m4 -mno-thumb-in"
+ 229      20726576 
+ 229      6973696F 
+ 229      6E203231 
+ 229      31333538 
+ 230 012c 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -fomit-frame-pointer -fal"
+ 230      6F726B20 
+ 230      2D6D7468 
+ 230      756D6220 
+ 230      2D676764 
+ 231 015f 69676E2D 		.ascii	"ign-functions=16 -ffunction-sections -fdata-section"
+ 231      66756E63 
+ 231      74696F6E 
+ 231      733D3136 
+ 231      202D6666 
+ 232 0192 73202D66 		.ascii	"s -fno-common\000"
+ARM GAS  /tmp/ccFAEn7c.s 			page 6
+
+
+ 232      6E6F2D63 
+ 232      6F6D6D6F 
+ 232      6E00
+ 233              	.LASF9:
+ 234 01a0 5F426F6F 		.ascii	"_Bool\000"
+ 234      6C00
+ 235              	.LASF4:
+ 236 01a6 73686F72 		.ascii	"short unsigned int\000"
+ 236      7420756E 
+ 236      7369676E 
+ 236      65642069 
+ 236      6E7400
+ 237              	.LASF1:
+ 238 01b9 7369676E 		.ascii	"signed char\000"
+ 238      65642063 
+ 238      68617200 
+ 239              	.LASF15:
+ 240 01c5 706F7274 		.ascii	"port_halt\000"
+ 240      5F68616C 
+ 240      7400
+ 241              	.LASF3:
+ 242 01cf 73686F72 		.ascii	"short int\000"
+ 242      7420696E 
+ 242      7400
+ 243              	.LASF10:
+ 244 01d9 73697A65 		.ascii	"sizetype\000"
+ 244      74797065 
+ 244      00
+ 245              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br
+ARM GAS  /tmp/ccFAEn7c.s 			page 7
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
+<<<<<<< HEAD
      /tmp/ccPiKD0Y.s:19     .text.port_halt:00000000 $t
      /tmp/ccPiKD0Y.s:25     .text.port_halt:00000000 port_halt
+=======
+     /tmp/ccFAEn7c.s:19     .text.port_halt:00000000 $t
+     /tmp/ccFAEn7c.s:25     .text.port_halt:00000000 port_halt
+>>>>>>> 679f4fcaa8fcfa8858edaa85dc6fc99552e35e43
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS
